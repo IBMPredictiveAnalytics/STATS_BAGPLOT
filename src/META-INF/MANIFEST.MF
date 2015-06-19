@@ -1,0 +1,17 @@
+Name: STATS BAGPLOT
+Dialog-Specs: STATS_BAGPLOT.spd
+Command-Specs: STATS_BAGPLOT.xml
+Code-Files: STATS_BAGPLOT.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Create a bagplot or a matrix of bagplots
+Description: This procedure creates bagplots.  A bagplot is a two-dime
+ nsional generalization of a boxplot.  With more than two variables, a
+  matrix of bagplots is created.
+Author: JKP, IBM SPSS
+Version: 1.0.4
+Product-Version: 18
+Date: 4/26/14
+Categories: graphics, bagplot
+Plugins: R
+R-Packages: aplpack
+Translation-Catalogues: lang
