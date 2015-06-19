@@ -1,0 +1,61 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_BAGPLOT.R:84
+msgid "Bagplot"
+msgstr ""
+"Bagplot"
+
+#: STATS_BAGPLOT.R:85
+msgid "Bagplot: Warnings"
+msgstr ""
+"Bagplot: ostrzeżenia"
+
+#: STATS_BAGPLOT.R:90
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: STATS_BAGPLOT.R:95
+msgid "The number of variables must be between two and ten."
+msgstr ""
+"Liczba zmiennych musi się zawierać w przedziale od 2 do 10."
+
+#: STATS_BAGPLOT.R:99
+msgid "Bagplot of %s by %s"
+msgstr ""
+"Bagplot %s przez %s"
+
+#: STATS_BAGPLOT.R:106
+msgid "Variables with a nominal measurement level cannot be used in this plot"
+msgstr ""
+"Zmiennych o nominalnym poziomie pomiaru nie można używać w tym wykresie"
+
+#: STATS_BAGPLOT.R:220
+msgid "End of procedure"
+msgstr ""
+"Koniec procedury"
+
+#: STATS_BAGPLOT.R:247
+msgid "Message Number"
+msgstr ""
+"Numer komunikatu"
+
+
