@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS BAGPLOT Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS BAGPLOT Extension Command</h1>
+
+<p>Produce a bagplot.  Bagplots are two-dimensional 
+versions of the boxplot.  Instead of a box, the bagplot displays 
+a convex polygon that contains half of the points (the bag).
+The loop is a polygon that contains the non-outlier points.
+Outlier points are those beyond the fence multiple of the bag.</p>
+
+<p>If there are more than two variables, a matrix of bagplots is
+produced.</p>
+<div class="syntax">
+<p>STATS BAGPLOT VARIABLES=<em>list of variables</em><sup>&#42;</sup>
+CASELIMIT=<em>number</em></p>
+
+<p>/OPTIONS FENCE=<em>number</em> OUTLIERS=YES or NO
+WHISKERS=YES or NO LOOPPOINTS=YES or NO
+BAGPOINTS=YES or NO POINTSIZE=<em>number</em>
+TITLE=&ldquo;<em>title text</em>&rdquo;</p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS BAGPLOT /HELP.  prints this information and does nothing else.</p>
+
+<pre class="example"><code>STATS BAGPLOT VARIABLES=salary educ.
+</code></pre>
+
+<p>Split files mode is supported for this procedure.  Missing
+values are always excluded.</p>
+
+<p><strong>VARIABLES</strong> specifies the names of the variables to be plotted.
+Nominal-level variables cannot be used, and if there are value
+labels, no two values of a variable should have the same label.</p>
+
+<p><strong>CASELIMIT</strong> specifies the number of cases above which some statistics
+will be computed based on a sample of the data.  The default is 300.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>FENCE</strong> specifies the multiple of the bag polygon outside of which
+points are classified as outliers.  The default is 3.</p>
+
+<p><strong>TITLE</strong> optionally specifies a title for the plot.  If there are more
+than two variables, the split information is used as the title
+if no TITLE was specified.</p>
+
+<p><strong>POINTSIZE</strong> specifies a scale factor to increase or decrease the
+default size of points.  The default is .6.</p>
+
+<p>The remaining parameters are ignored if there are more than
+two variables, because the R package does not honor them.</p>
+
+<p><strong>OUTLIERS</strong> determines whether outliers are plotted.</p>
+
+<p><strong>WHISKERS</strong> specifies whether whiskers are drawn.</p>
+
+<p><strong>LOOPPOINTS</strong> specifies whether the points between the bag and
+loop boundaries are drawn.</p>
+
+<p><strong>BAGPOINTS</strong> specifies whether points within the bag boundary
+are drawn.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
