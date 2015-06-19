@@ -1,0 +1,61 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_BAGPLOT.R:84
+msgid "Bagplot"
+msgstr ""
+"보자기도표"
+
+#: STATS_BAGPLOT.R:85
+msgid "Bagplot: Warnings"
+msgstr ""
+"보자기도표: 경고"
+
+#: STATS_BAGPLOT.R:90
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_BAGPLOT.R:95
+msgid "The number of variables must be between two and ten."
+msgstr ""
+"변수 수는 2에서 10 사이여야 합니다."
+
+#: STATS_BAGPLOT.R:99
+msgid "Bagplot of %s by %s"
+msgstr ""
+"보자기도표(%s, %s별)"
+
+#: STATS_BAGPLOT.R:106
+msgid "Variables with a nominal measurement level cannot be used in this plot"
+msgstr ""
+"명목형 측정 수준이 있는 변수는 이 도표에서 사용할 수 없습니다."
+
+#: STATS_BAGPLOT.R:220
+msgid "End of procedure"
+msgstr ""
+"프로시저 끝"
+
+#: STATS_BAGPLOT.R:247
+msgid "Message Number"
+msgstr ""
+"메시지 번호"
+
+
