@@ -2,7 +2,7 @@
  "type": [ "Extension" ],
 "provider": [ "IBM" ],
 "software": [ "SPSS Statistics" ],
-"language": [ " R" ],
-"category": [ "Visualization " ],
+"language": [ "R" ],
+"category": [ "VisualizationÂ " ],
 "promotion": [ "No" ] 
 }
