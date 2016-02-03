@@ -1,11 +1,11 @@
 # STATS BAGPLOT
 ## Create a bagplot or a matrix of bagplots
- This procedure creates bagplots.  A bagplot is a two-dime
+ This procedure creates bagplots.  A bagplot is a two-dimensional generalization of a boxplot.  With more than two variables, a matrix of bagplots is created.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
