@@ -8,7 +8,7 @@ Description: This procedure creates bagplots.  A bagplot is a two-dime
  nsional generalization of a boxplot.  With more than two variables, a
   matrix of bagplots is created.
 Author: JKP, IBM SPSS
-Version: 1.0.4
+Version: 1.0.5
 Product-Version: 18
 Date: 4/26/14
 Categories: graphics, bagplot
